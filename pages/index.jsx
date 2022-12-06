@@ -56,7 +56,7 @@ const Home = (data) => {
   );
 };
 
-Home.getInitialProps = async () => {
+/*Home.getInitialProps = async () => {
   const response = await fetch(
     "https://backend-grupo-mejia.herokuapp.com/api/asociado"
   );
@@ -64,6 +64,6 @@ Home.getInitialProps = async () => {
   const body = await response.json();
 
   return { data: body };
-};
+};*/
 
 export default Home;
